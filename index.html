@@ -7,9 +7,19 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="stylesheets/main.css">
 		<script src="javascript/main.js"></script>
+		<script type="text/javascript">
+			function showDate() {
+			var d = new Date();
+			var curr_date = d.getDate();
+			var curr_month = d.getMonth() + 1; //months == zero based
+			var curr_year = d.getFullYear();
+			document.write( curr_month + "/" + curr_date + "/" + curr_year);
+			}
+		</script
 	</head>
 	<body>
 		<h1>Benjamin Guzman</h1>
+		<i><script type="text/javascript">showDate();</script></i>
 
 		<hr>
 
@@ -18,7 +28,8 @@
 		</p>
 
 		<h2>Send me an e-mail to get in contact with me!</h2>
-
+		
+		
 		<form action="https://formspree.io/benguzman1010@gmail.com" method="POST" >
 			Your Name:<br>
 			<input type="text" name="name"><br>
@@ -30,6 +41,7 @@
 			<input type="submit" value="Send">
 			<input type="reset" value="Reset">
 		</form>
+		
 		<h3>Check out my links below!</h3>
 
 		<div class ="container2">
@@ -39,14 +51,6 @@
 		<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3B%2FqX2FecERJSENiHmetF2tg%3D%3D" target="_blank" class="fa fa-linkedin"></a>
 		<a href="https://github.com/bguzman10" target="_blank" class="fa fa-github"></a>
 		</div>
-		<!--don't need this github button for now
-		<div class="container">
-
-			<a href="https://github.com/bguzman10" target="_blank"><button class="btn btn1">GitHub</button></a>
-		</div>
-
-		<p> Click here for the link to my GitHub profile.</p>
-		-->
 
 	</body>
 </html>

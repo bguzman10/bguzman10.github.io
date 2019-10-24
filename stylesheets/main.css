@@ -33,9 +33,6 @@ p {
 		text-align: center;
 }
 
-
-
-
 h1 {
 		color: #fff;
 		text-align: center;
@@ -60,6 +57,9 @@ body {
 		margin: 10;
 		padding: 0;
 
+}
+textarea {
+	resize: none;
 }
 /* Style font for icons. */
 .fa {
