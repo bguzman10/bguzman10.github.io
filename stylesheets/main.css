@@ -45,6 +45,7 @@ h1 {
 }
 h2 {
 		text-align: center;
+		font-size: 22px;
 }
 h3 {
 		text-align: center;
@@ -72,7 +73,7 @@ textarea {
 }
 .container2{
 	text-align: center;
-	margin-top: 90px;
+	margin-top: -100px;
 }
 /* Hover effect. */
 .fa:hover {
@@ -89,6 +90,12 @@ textarea {
 	color: white;
 }
 .fa-github {
+	border: 0.2px solid grey;
+	background: white;
+	text-align: center;
+	margin-top: 100px;
+}
+.fa-print {
 	border: 0.2px solid grey;
 	background: white;
 	text-align: center;
