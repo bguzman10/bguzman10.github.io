@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
 @font-face {
 	
 	font-weight: normal;
@@ -17,15 +20,21 @@
 
 
 body {
-	background-color: #243447;
+	background: linear-gradient(to left top, #373e98, #9198e5);
+	/* background-image: "images/IMG-1529.jpg" */
 	color: #fff;
 	font-size: 135%;
 	line-height: 1.25;
 	font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-a {
-	color: #99cc33;
+ a {
+	color: #FF0000;
 	text-decoration: none;
 	outline: none;
 }
@@ -43,22 +52,95 @@ h1 {
 		text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 		
 }
+
 h2 {
-		text-align: center;
-		font-size: 22px;
+	text-align: center;
 }
 h3 {
-		text-align: center;
-}
-a {
-	color: red;
+	text-align: center;
 }
 
-body {
-		margin: 10;
-		padding: 0;
+#about_h3 {
+	
+	
+	position: relative;
+	top: 100px;
+}
+
+#hr1 {
+	height: .5px;
+}
+
+#img1 {
+	width:800px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	display: block;
+}
+.about img {
+	width: 300px;
+	height: 400px;
+	margin-right: 10px;
+	float: left;
+	padding: 10px;
+	display: block;
+}
+
+.about p {
+	
+	padding-left: 10px;
+	margin-left: 5em;
+	line-height: 150%;
+	
+	
+}
+
+#form1 {
+	margin: auto;
+	width: 50%;
+	border: 5px solid white;
+	padding: 10px;
+	background-color: #F6E4D1; 
+	color: #282A35;
+	
+}
+
+#navbar ul {
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #282A35; 
+	color: #fff;
+	overflow: hidden;
+	
+}
+
+#navbar ul li {
+	float: left;
+	border-right: .5px solid #bbb;
+
+
+	
+}
+
+
+
+#navbar ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+	color: white;
 
 }
+
+#navbar ul li a:hover{
+	color: #000;
+	background-color: #fff;
+}
+
 textarea {
 	resize: none;
 }
@@ -71,6 +153,12 @@ textarea {
   text-decoration: none;
 
 }
+
+#about_container {
+	position: relative;
+	top: 100px;
+}
+
 .container2{
 	text-align: center;
 	margin-top: -100px;
@@ -81,11 +169,13 @@ textarea {
 }
 /* LinkedIn color. */
 .fa-linkedin {
+  border: 0.5px solid white;	
   background: #007bb5;
   color: white;
 }
 /* IG color. */
 .fa-instagram {
+	border: 0.5px solid white;
 	background: #125688;
 	color: white;
 }
